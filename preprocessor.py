@@ -35,8 +35,8 @@ class DataPreprocessor:
             )
 
             X_scaled = self.scaler.fit(X)
-            X_train_scaled = self.sclaer.transform(X_train)
-            X_test_scaled = self.sclaer.transform(X_test)
+            X_train_scaled = self.scaler.transform(X_train)
+            X_test_scaled = self.scaler.transform(X_test)
 
 
             
