@@ -169,7 +169,7 @@ class StockRegressor:
             logger.info(f"Mean Squared Error (MSE): {mse:.2f}")
             logger.info(f"Root Mean Squared Error (RMSE): {rmse:.2f}")
             logger.info(f"Mean Absolute Error (MAE): {mae:.2f}")
-            logger.info(f"Mean Absolute Percentage Error (MAPE): {mae:.2f}%")
+            logger.info(f"Mean Absolute Percentage Error (MAPE): {mape:.2f}%")
             logger.info(f"R-squared (R2): {r2:.4f}")
             logger.info(f"Explained Variance: {explained_var:.4f}")
             
